@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('https://www.optimistdaily.com/wp-content/uploads/Digital-Money.png');
+  background-size: cover; 
+  background-position: center; 
+}
+
+.container {
+    max-width: 600px; 
+    padding: 20px; 
+    border-radius: 20px; 
+    margin: 0 auto; 
+    text-align: center; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px; 
+    width: fit-content; 
+    font-family: 'Jazz LET', fantasy; 
+    font-size: 20px; 
+    color: rgb(30,94,136);
+}
+
+input[type="text"] {
+    width: 100%; 
+    padding: 10px; 
+    margin: 8px 0; 
+    display: inline-block; 
+    border: 5px solid #1e5e88; 
+    border-radius: 30px; 
+    box-sizing: border-box; 
+  }
+  
+  input[type="text"]:focus {
+    border-color: #4A90E2; 
+    box-shadow: 0 0 8px 0 rgba(74, 144, 226, 0.5); 
+    outline: none; 
+  }
+  
+  
+  button {
+    background-color: #69b9da;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3492c3;
+  }
+  
+  
+ 
